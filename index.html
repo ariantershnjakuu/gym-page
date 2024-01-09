@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/logo.png" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Arian Tershnjaku</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="AT logo" src="img/logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#how">About</a></li>
+          <li>
+            <a class="main-nav-link" href="#skills">Skills</a>
+          </li>
+          <li><a class="main-nav-link" href="#testimonials">Projects</a></li>
+          <li><a class="main-nav-link" href="#pricing">Work</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Hi, I'm Arian Tershnjaku Front-End developer!
+            </h1>
+            <p class="hero-description">
+              If you ever thought about creating a website, you're in the right
+              place.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm">Contact me</a>
+
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.png" type="image/webp" />
+              <source srcset="img/hero.jpg" type="image/png" />
+
+              <img src="img/hero.jpg" class="hero-img" alt="Arian Tershnjaku" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">Certified from</h2>
+          <div class="logos">
+            <img src="img/logos/logoblack.svg" alt="Life from gjirafa" />
+            <img
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img src="img/logos/ICK.png" alt="The New York Times logo" />
+            <img src="img/logos/BONEVET.png" alt="Forbes logo" />
+            <img src="img/logos/udemy.png" alt="USA Today logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal section-how" id="how">
+        <div class="container">
+          <span class="subheading">About</span>
+          <h2 class="heading-secondary">
+            Introducing myself in 1 simple step!
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Who Am I?</h3>
+            <p class="step-description">
+              Arian Tershnjaku is a mechatronics engineering student at UBT with
+              a keen interest and a passion in computer science and technology.
+              As a kid he always loved technology and at such a young age he was
+              involved in a lot of training in programming and won different
+              competitions in many aspects of STEM. He also loves going to the
+              gym and is known as a gym rat. His passion for technology is the
+              same as his passion for sports.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img src="img/app-screen-1.png" class="step-img" alt="" />
+          </div>
+      </section>
+
+      <section class="reveal section-skills" id="skills">
+        <div class="container center-text">
+          <span class="subheading">Skills</span>
+          <h2 class="heading-secondary">
+            Things that I've been using for a while!
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="skill">
+            <img
+              src="img/card.jpg"
+              class="skill-img"
+              alt="Ariani"
+            />
+            <div class="skill-content">
+              <div class="skill-tags">
+                <span class="tag tag--vegetarian">Front-End developer</span>
+              </div>
+              <p class="skill-title">Arian Tershnjaku</p>
+              <ul class="skill-attributes">
+                <li class="skill-attribute">
+                  <ion-icon class="skill-icon" name="flame-outline"></ion-icon>
+                  <span><strong></strong> websites</span>
+                </li>
+                <li class="skill-attribute">
+                  <ion-icon class="skill-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="professional-skills">
+            <h3 class="heading-tertiary">Professional Skills</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="logo-html5"></ion-icon>
+                <span>HTML 5</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="logo-css3"></ion-icon>
+                <span>CSS 3</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="logo-javascript"></ion-icon>
+                <span>JavaScript</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="logo-buffer"></ion-icon>
+                <span>BootStrap</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="logo-react"></ion-icon>
+                <span>ReactJS</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="logo-python"></ion-icon>
+                <span>Python</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="analytics-outline"></ion-icon>
+                <span>MySql</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-projects">
+          <a href="#" class="link">more &rarr;</a>
+        </div>
+      </section>
+
+      <section class="reveal section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Projects</span>
+          <h2 class="heading-secondary">Once you see my work, you can't go back</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img class="testimonial-img" alt="Florent" src="img/florent.jpg"/>
+              <blockquote class="testimonial-text">
+                Amazing websites and amazing work! It feels truly magical. This guy is insane!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Florent Reçica</p>
+            </figure>
+            <figure class="testimonial">
+              <img class="testimonial-img" alt="Fatlum" src="img/fatlum.jpg"/>
+              <blockquote class="testimonial-text">
+                When I first saw his websites I was spechless. I was amazed by his work and to be honest Arian was made for this.       
+              </blockquote>
+              <p class="testimonial-name">&mdash; Fatlum Maliqi</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <a href="https://tershnjaku.netlify.app/" target="_blank">
+              <img src="img/gallery/tershnjaku1.png" alt="tershnjaku website" />
+            </a>
+          </figure>
+
+          <figure class="gallery-item">
+            <a href="https://votebox.netlify.app/" target="_blank">
+              <img src="img/gallery/votebox1.png" alt="votebox" />
+            </a>
+          </figure>
+          <figure class="gallery-item">
+            <a href="https://ariani-game.netlify.app/" target="_blank">
+                <img src="img/gallery/pig-game1.png" alt="pig-game" />
+            </a>
+          </figure>
+          
+          <figure class="gallery-item">
+              <a href="https://kosovo-tourism.netlify.app/" target="_blank">
+              <img src="img/gallery/tourism.png" alt="kosovo-tourism" />
+            </a>
+            </figure>
+        </div>
+      </section>
+
+      <section class="reveal section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Pay once.Use forever.
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Basic</p>
+              <p class="plan-price"><span>$</span>199</p>
+              <p class="plan-text">Simple and beautiful</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>FREE domain</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Free support for 1 year</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Storage 2GB</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">Buy License</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Standard</p>
+              <p class="plan-price"><span>$</span>349</p>
+              <p class="plan-text">For the professionals!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span><strong>FREE</strong> domain</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Free support<strong> 24/7 FOREVER</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Storage 500GB</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Unlimited email accounts</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">Buy License</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </aside>
+        </div>
+      </section>
+
+      <section class="reveal section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first website right now!</h2>
+              <p class="cta-text">
+                If you want to have the best website in town sign up right now.
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Your name"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Intsagram</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="me"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="tershnjaku logo" src="img/logos/tershnjaku-logo1.jpg" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" target="_blank" href="https://www.instagram.com/" >
+                <ion-icon class="social-icon" id="i" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" target="_blank" href="https://www.facebook.com/">
+                <ion-icon class="social-icon" id="f" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" target="_blank" href="https://twitter.com/">
+                <ion-icon class="social-icon" id="t" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2022</span> by Arian Tershnjaku.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact</p>
+          <address class="contacts">
+            <p class="address">Rr.Viktor Majer, Sol 1</p>
+            <p>
+              <a class="footer-link" href="tel:044/556-526">044/556-526</a
+              ><br />
+              <a
+                class="footer-link"
+                href="mailto:arian.tershnjkau@life.gjirafa.com"
+                >arian.tershnjkau@life.gjirafa.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Arian</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
