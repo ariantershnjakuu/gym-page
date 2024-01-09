@@ -83,6 +83,11 @@
     width: 60%;
   }
 
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
   .logos img {
     height: 2.4rem;
   }
@@ -137,11 +142,18 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
- 
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
     opacity: 0;
 
+    /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
 
+    /* 3) Hide it from screen readers */
     visibility: hidden;
   }
 
@@ -181,7 +193,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .professional-skills {
+  .diets {
     grid-column: 1 / -1;
     justify-self: center;
   }
@@ -306,11 +318,15 @@
   margin-right: 1.6rem;
 }
 
-.no-flexbox-gap .skill-attribute:not(:last-child) {
+.no-flexbox-gap .delivered-faces {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .meal-attribute:not(:last-child) {
   margin-bottom: 2rem;
 }
 
-.no-flexbox-gap .skill-icon {
+.no-flexbox-gap .meal-icon {
   margin-right: 1.6rem;
 }
 
