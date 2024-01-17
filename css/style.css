@@ -14,10 +14,6 @@
   position: relative;
 }
 
-.logo {
-  height: 2.2rem;
-}
-
 /**************************/
 /* NAVIGATION */
 /**************************/
@@ -127,7 +123,32 @@
 }
 
 .hero-img {
-  width: 100%;
+  width: 80%;
+}
+
+.hero-img-box {
+  position: relative;
+}
+
+.gym-view {
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  height: 50%;
+  width: 50%;
+}
+
+.gym-carpet {
+  position: absolute;
+  top: -50px;
+  left: -90px;
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+}
+
+.heading-primary {
+  color: #dee2e6 !important;
 }
 
 .delivered-meals {
@@ -596,7 +617,6 @@
 
 .cta *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.4rem #e7c5c5;
 }
 
 /**************************/
