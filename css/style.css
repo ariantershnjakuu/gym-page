@@ -124,6 +124,7 @@
 
 .hero-img {
   width: 80%;
+  object-fit: contain;
 }
 
 .hero-img-box {
@@ -134,14 +135,6 @@
   position: absolute;
   bottom: -50px;
   right: -50px;
-  height: 50%;
-  width: 50%;
-}
-
-.gym-carpet {
-  position: absolute;
-  top: -50px;
-  left: -90px;
   height: 50%;
   width: 50%;
   object-fit: contain;
@@ -211,6 +204,7 @@
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
+  mix-blend-mode: multiply;
 }
 
 /**************************/
@@ -354,6 +348,8 @@
 
 .meal-img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .all-recipes {
@@ -418,6 +414,8 @@
 .gallery-item img {
   display: block;
   width: 100%;
+  height: 200px;
+  object-fit: cover;
   transition: all 0.4s;
 }
 
@@ -578,7 +576,7 @@
       rgba(192, 186, 181, 0.35),
       rgba(71, 67, 63, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../img/eating.avif");
   background-size: cover;
   background-position: center;
 }
